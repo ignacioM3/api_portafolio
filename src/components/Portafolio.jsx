@@ -10,7 +10,7 @@ const Portafolio = () => {
     useEffect(() => {
         const fetchProyect = async () => {
             setLoad(!load)
-            const url = "https://my-json-server.typicode.com/ignacioM3/api_portafolio/proyectos"
+            const url = import.meta.env.VITE_API_URL
             try {
                 const respuesta = await fetch(url)
                 const resultado = await respuesta.json()
