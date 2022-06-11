@@ -1,0 +1,42 @@
+{
+  "proyectos" : [
+    {
+    "id": 1,
+    "name": "challenge Star Wars",
+    "description": "Challenge realizado en la cual debia mostrar los planetas usando la API https://swapi.dev/",
+    "gitHub": "https://github.com/ignacioM3/React-Challenge-StarWars",
+    "page": "https://ignaciom3.github.io/React-Challenge-StarWars/",
+    "img": "starWars.png"
+}, {
+    "id": 2,
+    "name": "Citas React",
+    "description": "Pequeño proyecto realizado con tailwind y react listado de pacientes de una veterinaria, con persistencia de datos en localStorage",
+    "gitHub": "https://github.com/ignacioM3/citas_react_vite",
+    "page": "https://citas-react-ignaciom3.netlify.app/",
+    "img": "seguimientoReact.png"
+},
+{
+    "id": 3,
+    "name": "Planificador de Gastos",
+    "description": "Pagina web de planificador de gastos, con validaciones y diseño bastante interactivo!",
+    "gitHub": "https://github.com/ignacioM3/control-de-gastos-react",
+    "page": "https://contro-de-gastos-ignaciom3.netlify.app",
+    "img": "planificadorGastos.png"
+},
+{
+    "id": 4,
+    "name": "Cotizador de Criptos",
+    "description": "Pagina con objetivo principal consumir dos API externa para mostrar los resultados dados. Usando como libreria de CSS Styled Components",
+    "gitHub": "https://github.com/ignacioM3/cotizadorCriptos-react",
+    "page": "https://cotizador-criptos-ignaciom3.netlify.app",
+    "img": "cotizador.png"
+},
+{
+    "id": 5,
+    "name": "CRM - React",
+    "description": "CMR realizado con Json-Server para consumir el Json como base de datos, para los formulario Formik y validaciones Yup! y Tailwind como libreria de css ",
+    "gitHub": "https://cmr-react-ignaciom3.netlify.app/",
+    "page": "https://github.com/ignacioM3/api_crm",
+    "img": "crmReact.png"
+}]  
+}

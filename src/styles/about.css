@@ -1,0 +1,63 @@
+
+
+.about {
+    width: 100vw;
+    align-items: center;
+  }
+  
+  .about img{
+    display: none;
+  }
+  
+  .about-info{
+    grid-column: 5/10;
+    padding: 60px;
+  }
+  
+  .about-info h2{
+    font-size: 2em;
+    color: #191c32;
+  }
+  
+  .divider{
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 1em;
+  }
+  
+  .about h5 {
+    margin-bottom: 1em;
+    font-size: 16px;
+    color: rgb(58, 51, 51);
+  }
+
+
+
+  
+
+  
+@media (min-width: 576px){
+  
+  }
+  
+  @media (min-width: 768px){
+    
+    
+}
+
+  
+  @media (min-width: 1000px){
+    .about{
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+    }
+    .about img{
+      display: block;
+      grid-column: 1/5;
+      height: 720px;
+      width: 640px;
+    }
+  }
+  
