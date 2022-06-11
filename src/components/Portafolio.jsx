@@ -10,7 +10,7 @@ const Portafolio = () => {
     useEffect(() => {
         const fetchProyect = async () => {
             setLoad(true)
-            const url = import.meta.env.VITE_API
+            const url = import.meta.env.VITE_API_URL
             try {
                 const respuesta = await fetch(url)
                 const resultado = await respuesta.json()
