@@ -1,18 +1,16 @@
 import React from 'react'
-const imagesPath = require.context('../assets/')
+
 
 export const Card = ({name, description, gitHub, page, img}) => {
 
     const containerStyle = {
-        backgroundImage:`url(${img})`
+        backgroundImage:`url(src/assets/${img})`
     }
     
     return (
         <div className="card-margin">
             <div className="card">
-                <div className="card-img" style={containerStyle}>
-
-                </div>
+                <img className="card-img" src={`../assets/${img}`} alt="Imagen de portafolio" />
                 <div className="card-title">
                     <h2>{name}</h2>
                     <p>{description}</p>
