@@ -4,7 +4,7 @@ import React from 'react'
 export const Card = ({name, description, gitHub, page, img}) => {
 
     const containerStyle = {
-        backgroundImage:`url(src/assets/${img})`
+        backgroundImage:`url(../assets/${img})`
     }
     
     return (
