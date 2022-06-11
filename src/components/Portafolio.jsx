@@ -9,17 +9,17 @@ const Portafolio = () => {
 
     useEffect(() => {
         const fetchProyect = async () => {
-            setLoad(true)
-            const url = "https://my-json-server.typicode.com/ignacioM3/api_portafolio/db"
+            setLoad(!load)
+            const url = "https://my-json-server.typicode.com/ignacioM3/api_portafolio/proyectos"
             try {
                 const respuesta = await fetch(url)
                 const resultado = await respuesta.json()
 
                 setProyectos(resultado)
-                setLoad(false)
             } catch (error) {
                 console.log(error)
             }
+            setLoad(false)
         }
         fetchProyect()
     }, [])
@@ -38,13 +38,13 @@ const Portafolio = () => {
             <div className="conteiner-card">
                 <div className="row">
                     {
-                        !load ? (
+                        load ? <p>Cargando</p> : Object.keys(proyectos).length === 0 ? <p>No Hay Resultados</p> : (
                             
                                 proyectos.map(card => (
                                     <Card key={card.id}{...card} />
                                 ))
                             
-                        ) : null
+                        ) 
                     }
 
                 </div>
