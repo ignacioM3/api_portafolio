@@ -7,7 +7,24 @@
     "gitHub": "https://github.com/ignacioM3/React-Challenge-StarWars",
     "page": "https://ignaciom3.github.io/React-Challenge-StarWars/",
     "img": "starWars.png"
-}, {
+}, 
+{
+    "id": 6,
+    "name": "UpTask - MERN",
+    "description": "Pagina web MERN para administración de proyectos. El mismo te permite agregar colaborades en tiempo real gracias a socket.oi",
+    "gitHub": "https://github.com/ignacioM3/UpTask_MERN_backend",
+    "page": "https://uptask-ignaciom3.netlify.app/",
+    "img": "uptask.png"
+},
+{
+    "id": 7,
+    "name": "NodeSend",
+    "description": "Proyecto MERN el cual simula el funcionamiento de mediafire con respecto a poder compartir archivos a cualquier usuario",
+    "gitHub": "https://github.com/ignacioM3/NodeSend_MERN_backend",
+    "page": "https://nodesend-ignaciom3.vercel.app/",
+    "img": "nodesend.png"
+},
+{
     "id": 2,
     "name": "Citas React",
     "description": "Pequeño proyecto realizado con tailwind y react listado de pacientes de una veterinaria, con persistencia de datos en localStorage",
@@ -35,8 +52,8 @@
     "id": 5,
     "name": "CRM - React",
     "description": "CMR realizado con Json-Server para consumir el Json como base de datos, para los formulario Formik y validaciones Yup! y Tailwind como libreria de css ",
-    "gitHub": "https://cmr-react-ignaciom3.netlify.app/",
-    "page": "https://github.com/ignacioM3/api_crm",
+    "gitHub": "https://github.com/ignacioM3/api_crm",
+    "page": "https://cmr-react-ignaciom3.netlify.app/",
     "img": "crmReact.png"
 }]  
 }
