@@ -11,8 +11,7 @@
 {
     "id": 6,
     "name": "UpTask - MERN",
-    "description": "MERN para administración de proyectos. El mismo te permite agregar colaborades en tiempo real gracias a socket.oi. cuenta: demo@demo.com pass: demp123
-",
+    "description": "MERN para administración de proyectos. El mismo te permite agregar colaborades en tiempo real gracias a socket.oi. cuenta: demo@demo.com pass: demo123",
     "gitHub": "https://github.com/ignacioM3/UpTask_MERN_backend",
     "page": "https://uptask-ignaciom3.netlify.app/",
     "img": "uptask.png"
