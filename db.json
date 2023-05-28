@@ -55,5 +55,12 @@
     "gitHub": "https://github.com/ignacioM3/api_crm",
     "page": "https://cmr-react-ignaciom3.netlify.app/",
     "img": "crmReact.png"
+},{
+    "id": 6,
+    "name": "Challenge - Cart",
+    "description": "Challenge de Cart con consigna solicitada en README.md",
+    "gitHub": "https://github.com/ignacioM3/Challenge-React-Cart",
+    "page": "https://cart-challenge.netlify.app/",
+    "img": "cartChallge.png"
 }]  
 }
